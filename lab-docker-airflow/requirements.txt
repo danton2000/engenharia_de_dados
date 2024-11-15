@@ -1,0 +1,9 @@
+apache-airflow==2.10.2
+dbt==1.0.0.38.18
+dbt-trino==1.8.2
+trino==0.330.0
+boto3==1.35.46
+pyarrow==17.0.0
+pandas==2.2.3
+s3fs
+minio==7.2.9
