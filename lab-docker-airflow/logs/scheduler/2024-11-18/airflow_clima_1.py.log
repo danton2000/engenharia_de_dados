@@ -3038,3 +3038,17 @@ SyntaxError: invalid syntax
 [2024-11-18T02:01:32.924+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:01:32.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-18T02:01:32.959+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:01:32.958+0000] {dag.py:4180} INFO - Setting next_dagrun for airflow_clima_1 to 2024-11-12 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
 [2024-11-18T02:01:32.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_clima_1.py took 0.781 seconds
+[2024-11-18T02:02:03.415+0000] {processor.py:186} INFO - Started process (PID=9193) to work on /opt/airflow/dags/airflow_clima_1.py
+[2024-11-18T02:02:03.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_clima_1.py for tasks to queue
+[2024-11-18T02:02:03.421+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:02:03.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_clima_1.py
+[2024-11-18T02:02:03.977+0000] {processor.py:925} INFO - DAG(s) 'airflow_clima_1' retrieved from /opt/airflow/dags/airflow_clima_1.py
+[2024-11-18T02:02:04.003+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:02:04.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T02:02:04.036+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:02:04.036+0000] {dag.py:4180} INFO - Setting next_dagrun for airflow_clima_1 to 2024-11-12 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T02:02:04.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_clima_1.py took 0.664 seconds
+[2024-11-18T02:02:35.002+0000] {processor.py:186} INFO - Started process (PID=9257) to work on /opt/airflow/dags/airflow_clima_1.py
+[2024-11-18T02:02:35.005+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_clima_1.py for tasks to queue
+[2024-11-18T02:02:35.008+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:02:35.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_clima_1.py
+[2024-11-18T02:02:35.596+0000] {processor.py:925} INFO - DAG(s) 'airflow_clima_1' retrieved from /opt/airflow/dags/airflow_clima_1.py
+[2024-11-18T02:02:35.625+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:02:35.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T02:02:35.660+0000] {logging_mixin.py:190} INFO - [2024-11-18T02:02:35.660+0000] {dag.py:4180} INFO - Setting next_dagrun for airflow_clima_1 to 2024-11-12 00:00:00+00:00, run_after=2024-11-19 00:00:00+00:00
+[2024-11-18T02:02:35.710+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_clima_1.py took 0.718 seconds

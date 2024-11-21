@@ -26,3 +26,18 @@
 
 ### Adicionando varias de ambiente do MINIO no docker-compose
 - commando para baixar a imagem: docker compose down
+
+### Trino
+- comando para levantar somente as imagem do minio: docker compose up -d minio
+- comando para levantar somente as imagem do trino: docker compose up -d trino-init
+
+### Colocando a config do ambiente do Trino no arquivo docker-compose
+    - Criados as pastas, config_trino, config_hive, int_trino
+
+### Testar a conexão com o Trino, com o DBeaver
+    - criar conexão com o Trino
+    host: localhost
+    port: 8085
+    username: admin
+    testar
+    32:00
